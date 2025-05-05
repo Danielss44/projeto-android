@@ -1,0 +1,143 @@
+@font-face {
+    font-family: 'idroid';
+    src: url(fontes/idroid.otf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: lightgreen;
+    margin: 0;
+}
+
+header{
+
+    background-image: linear-gradient(to bottom, rgb(121, 255, 121), rgba(0, 0, 0, 0.6));
+    width: auto;
+    color: white;
+    margin: 0;
+    box-shadow: 1px 7px 7px rgba(0, 0, 0, 0.426);
+}
+
+header >h1, h2{
+    justify-self: center;
+    text-align: justify;
+    width: auto;
+    height: auto;
+    padding-top: 10px;
+}
+header > h1{
+    font-weight: normal;
+    margin-top: 0;
+    margin: 0;
+    
+}
+
+header > h2{
+    text-align: center;
+    width: 500px;
+    text-decoration: none;
+    font-weight: normal;
+}
+
+a{ 
+    display: inline-flex;
+    text-decoration: none;
+    color: white;
+    padding: 10px 30px; 
+}
+
+nav > a:hover{
+    background-color: rgb(26, 104, 26);
+    border-radius: 10px;
+}
+main{    
+
+    background-color: white;
+    justify-self: center;
+    width: 70%;
+    padding: 0;
+    border-radius: 10px;
+    box-shadow: 2px 1px 7px 7px rgba(0, 0, 0, 0.426);
+}
+
+.tittle{
+    display: flex;
+    font-family: 'idroid', sans-serif;
+    color: darkgreen;
+    padding: 0 5px;
+    margin: 0 10px;
+}
+
+.sub-tittle{   
+    color: darkgreen;
+    font-family: 'idroid', sans-serif;
+    background-image: linear-gradient(to right, lightgreen, white);
+    padding: 0 5px;
+    margin-left: 10px;
+
+}
+
+.sub-tittle > h2{
+    justify-self: left;
+    margin: 0;
+}
+
+p{
+    text-indent: 25px;
+    text-align: justify;
+    margin: 10px;
+}
+
+picture{
+    display: flex;
+    width: auto;
+    padding: 0;
+    justify-content: center;
+}
+
+img{
+    width: 100%;
+    margin: 0 100px;
+}
+
+.video{
+    background-color: rgb(16, 67, 16);
+    display: flex;
+    justify-content: center;
+    padding: 25px 50px;
+ 
+}
+
+.table{
+    margin: 10px;
+    border-radius: 10px;
+    padding: 0;
+    background-color: lightgreen;
+    padding-bottom: 10px;
+}
+
+.container{
+    color: white;
+    background-color: rgb(67, 187, 67);
+    text-indent: 0;
+    padding: 10px;
+    margin: 0;
+    border-radius: 10px 10px 0 0;
+}
+
+.list{
+    display: inline-flex;
+    width: auto;
+}
+
+.list > ul{
+    text-align: center;
+
+}
+
+footer{
+    text-align: center;
+    background-color: darkgreen;
+}
